@@ -1,0 +1,36 @@
+/*color: 
+ #f5a442
+ #615d57;*/
+
+/* nav bar */
+
+.nav_bar {
+    color: #615d57;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 3px solid #615d57;
+}
+
+.inner {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo {
+    width: 10vw;
+}
+
+.icon {
+    width: 52px;
+    border-radius: 50%;
+}
+
+.inner input {
+    height: 5vh;
+}

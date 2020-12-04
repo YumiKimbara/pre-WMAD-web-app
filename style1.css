@@ -1,0 +1,165 @@
+/*color:
+ #F5A442
+ #615D57;*/
+
+ body {
+     color: #615D57;
+     margin: 0 25px;
+ }
+
+ /*nav bar*/
+.nav_bar {
+    color: #615D57;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 3px solid #615D57;
+    margin-bottom: 3vh;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 10vw;
+}
+
+.icon {
+    width: 52px;
+    border-radius: 50%;
+}
+
+.inner input {
+    height: 5vh;
+}
+
+/* wrapper */
+.wrapper {
+    display: flex;
+    margin: 0 36px;
+}
+
+.wrapper-main {
+    width: 80%;
+} 
+
+.wrapper-aside {
+    flex: 20%;
+}
+
+/* flyer */
+
+.wrapper-main-flyer {
+    margin-right: 40px;
+}
+
+.wrapper-main-flyer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F5A442;
+    top: 0;
+}
+
+.wrapper-main-flyer li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover:not(.active) {
+    background-color: #615D57;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #756b5c;
+}
+
+.tabcontent {
+    padding: 20px;
+    background-color: #fff2e1b3;
+    text-align: center;
+}
+
+.wrapper-main-flyer img {
+    width: 60%;
+}
+
+.wrapper-main-favorite-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-main-favorite-section-container {
+    margin-right: 50px;
+}
+
+.wrapper-main-favorite-section-container img {
+    width: 20vw;
+}
+
+.wrapper-aside-signIn {
+    padding: 0 10px 10px 10px;
+    margin: 36px 0;
+    border: 1px solid #615D57;
+}
+
+.wrapper-aside-signIn h4 {
+    margin: 0;
+    margin-top: 3vh;
+}
+
+.btn {
+    background-color: #F5A442;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 8px 10px 8px 8px;
+}
+
+.wrapper-aside-ad {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    margin-bottom: 10vh;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    color: #615D57;
+    border-top: 3px solid #615D57;
+    padding-top: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-section-title {
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 54px;
+}

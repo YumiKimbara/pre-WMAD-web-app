@@ -25,6 +25,11 @@
     padding: 0px;
 }
 
+.inner a {
+    text-decoration: none;
+    color: #615D57;
+  }
+
 .logo {
     width: 10vw;
 }
@@ -52,10 +57,19 @@
     flex: 20%;
 }
 
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
 /* flyer */
 
 .wrapper-main-flyer {
     margin-right: 40px;
+}
+
+.wrapper-main-flyer-frame {
+    border-radius: 10px;
 }
 
 .wrapper-main-flyer ul {
@@ -110,6 +124,7 @@ li a:hover:not(.active) {
 
 .wrapper-main-favorite-section-container img {
     width: 20vw;
+    border-radius: 10px;
 }
 
 .wrapper-aside-signIn {

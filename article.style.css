@@ -5,32 +5,107 @@
 /* nav bar */
 
 .nav_bar {
-    color: #615d57;
-    font-size: 24px;
-    font-family: 'Dancing Script', cursive;
-    border-bottom: 3px solid #615d57;
+  color: #615d57;
+  font-size: 24px;
+  font-family: "Dancing Script", cursive;
+  border-bottom: 3px solid #615d57;
 }
 
 .inner {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logo {
-    width: 10vw;
+  width: 10vw;
 }
 
 .icon {
-    width: 52px;
-    border-radius: 50%;
+  width: 52px;
+  border-radius: 50%;
 }
 
 .inner input {
-    height: 5vh;
+  height: 5vh;
+}
+
+.inner a {
+  text-decoration: none;
+  color: #615d57;
+}
+
+/* nav article */
+
+.article_bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.article_bar li {
+  border: 1px solid #615d57;
+  font-family: "Dancing Script", cursive;
+}
+
+/* Article */
+
+h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+.all_contents {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: #615d57;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.article_content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.article_content img {
+  width: 10vw;
+  margin: 10px 10px;
+}
+
+.article_content img:hover {
+  opacity: 0.6;
+}
+
+.article_content2 {
+  border-top: 1px solid #615d57;
+  border-bottom: 1px solid #615d57;
+}
+
+/* side */
+
+.popular_article {
+  width: 30%;
+  text-align: center;
+}
+
+.popular_article h2 {
+  border-bottom: 1px solid #f5a442;
+  padding-bottom: 15px;
+}
+
+.popular_article div {
+  margin: 10px 20px;
+}
+
+.popular_article img:hover {
+  opacity: 0.6;
 }

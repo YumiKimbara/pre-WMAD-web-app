@@ -35,17 +35,12 @@
         <div class="wrapper">
             <div class="wrapper-main">
                 <div class="wrapper-main-flyer">
-                    <h3>Today's Flyer</h3>
+                    <h3>Today's Flyer <span>~ Supermarket's Name ~</span></h3>
                     <div class="wrapper-main-flyer-frame">
-                        <ul>
-                            <li><a class="active" onclick="open(flyer, '1')">1</a></li>
-                            <li><a onclick="open(flyer, '2')">2</a></li>
-                            <li><a onclick="open(flyer, '3')">3</a></li>
-                            <li><a onclick="open(flyer, '4')">4</a></li>
-                        </ul>
-                        <div id="1" class="tabcontent">
-                            <img src="https://media3.picsearch.com/is?AI0HbL4OoTIg5FSwPcEAcdTjTAYlLHq39rgj2--lUfY&height=215" alt="flyer">
-                        </div>
+                        <h4>&lt;</h4>
+                        <img src="https://media1.picsearch.com/is?zTa2tf48-Ago8_3x_rPsYsDbwgMf1ZLVWDKZrcNakvY&height=341" alt="flyer1">
+                        <img src="https://media5.picsearch.com/is?1aGOXb0OekHJ1W5HkZN9ORx7A3dBbKP3rDsnUW08-Vw&height=341" alt="flyer"2>
+                        <h4>&gt;</h4>
                     </div>
                 </div>
                 <br><br>
@@ -54,26 +49,26 @@
                     <div class="wrapper-main-favorite-section">
                         <div class="wrapper-main-favorite-section-container">
                             <img src="https://video.kurashiru.com/production/videos/3c7641d2-d4be-48c8-8cec-c621f2c9a6e3/compressed_thumbnail_square_normal.jpg?1591943710" alt="avocado cup">
-                            <h4>Avocado Cup</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <h4>1. Avocado Cup</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
                         </div>
                         <div class="wrapper-main-favorite-section-container">
                             <img src=https://video.kurashiru.com/production/videos/1ac83a96-27de-4832-af88-f14ea1cade40/compressed_thumbnail_square_normal.jpg?1604737559" alt="chocolate cake">
-                            <h4>Chocolate Cake</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <h4>2. Chocolate Cake</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
                         </div>
                         <div class="wrapper-main-favorite-section-container">
                             <img src="https://video.kurashiru.com/production/videos/7dd1b683-b3d1-409a-a040-e9b36697e3a8/compressed_thumbnail_square_normal.jpg?1559035961" alt="tomato salad">
-                            <h4>Tomato Salad</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <h4>3. Tomato Salad</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
                         </div>
                     </div>
+                    <a href="#"><h4>Others...</h4></a>
                 </div>
             </div>
             <div class="wrapper-aside">
                 <div class="wrapper-aside-signIn">
-                    <h4>Sign In</h4>
-                    <hr>
+                    <h4 class="border">Sign In</h4>
                     <h4>User Name:</h4>
                     <input type="text" name="userName" id="userName">
                     <h4>Password:</h4>
@@ -81,14 +76,13 @@
                     <br>
                     <input class="btn" type="button" value="SIGN IN">
                     <br>
-                    <a href="#" target="_blank">Forgot Password?</a>
-                    <hr>
+                    <a href="#" target="_blank" class="border">Forgot Password?</a>
                     <h4>New User</h4>
                     <input class="btn" type="button" value="SIGN UP">
                 </div>
                 <div class="wrapper-aside-ad">
                     <a href="#">
-                        <img src="https://tpc.googlesyndication.com/simgad/12224918180337427770?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qkLm4Mm1PeaRKeRNcUSbddMNg-nng" alt="Ad">
+                        <img src="https://media2.picsearch.com/is?dnXNBFCJ_knFXWgIEwB6dmbTPojeWoZle3CMkrn5AgU&height=263" alt="Ad">
                     </a>
                 </div>
             </div>
@@ -96,9 +90,13 @@
 
         <footer>
             <div class="footer-inner">
-                <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FKRRdixdw7c9Il1n3a6JaqjSrvaqgDRfIg&usqp=CAU" alt="logo">
+                <a href="home.html">
+                    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FKRRdixdw7c9Il1n3a6JaqjSrvaqgDRfIg&usqp=CAU" alt="logo">
+                </a>
                 <div class="footer-section">
-                    <div class="footer-section-title">Categories</div>
+                    <div class="footer-section-title">
+                        <a href="categories.html">Categories</a>
+                    </div>
                     <ul class="footer-section-list">
                         <li class="footer-section-list-item">Ingredients</li>
                     <li class="footer-section-list-item">Popular Ranking</li>
@@ -106,7 +104,9 @@
                     </ul>
                 </div>
                 <div class="footer-section">                    
-                    <div class="footer-section-title">Menu</div>
+                    <div class="footer-section-title">
+                        <a href="recipe.html">Recipes</a>
+                    </div>
                     <ul class="footer-section-list">
                         <li class="footer-section-list-item">vegetables</li>
                         <li class="footer-section-list-item">meat</li>
@@ -114,7 +114,9 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <div class="footer-section-title">About</div>
+                    <div class="footer-section-title">
+                        <a href="article.html">Article</a>
+                    </div>
                     <ul class="footer-section-list">
                         <li class="footer-section-list-item">vegetables</li>
                         <li class="footer-section-list-item">meat</li>
@@ -122,7 +124,9 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <div class="footer-section-title">Services</div>
+                    <div class="footer-section-title">
+                        <a href="#">Home</a>
+                    </div>
                     <ul class="footer-section-list">
                         <li class="footer-section-list-item">vegetables</li>
                         <li class="footer-section-list-item">meat</li>
